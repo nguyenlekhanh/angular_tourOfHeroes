@@ -7,8 +7,8 @@ import { FormsModule } from '@angular/forms'; // Import FormsModule
   selector: 'app-heroes',
   standalone: true,
   imports: [
-    CommonModule,
-    FormsModule
+    CommonModule, //uppercase
+    FormsModule   //ngModel
   ],
   templateUrl: './heroes.component.html',
   styleUrl: './heroes.component.css'
